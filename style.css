@@ -101,14 +101,6 @@ nav ul li a{
     width: 20px;
     margin-top: 15px;
 }
-@media screen and (max-width: 770px){
-    .banner-text h1{
-        font-size: 40px;
-    }
-    .banner-text p{
-        font-size: 10px;
-    }
-}
 
 /* Features Css */
 
@@ -190,29 +182,6 @@ nav ul li a{
     text-align: initial;
 }
 
-@media screen and (max-width: 770px){
-    .title-text h1{
-        font-size: 30px;
-    }
-    .features{
-        flex-basis: 100%;
-    }
-    .features-img{
-        flex-basis: 70%;
-        margin-bottom: 20px;
-    }
-    .features-img img{
-        width: 80%;
-        border-radius: 10px;
-    }
-    .feature-box {
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        text-align: center;
-    }
-}
-
 /* Services Css */
 
 #service {
@@ -277,15 +246,6 @@ hr{
     opacity: 0.8;
 }
 
-@media screen and (max-width: 770px){
-    .single-service{
-        flex-basis: 100%;
-    }
-    .single-service:hover .service-desc{
-        bottom: 25%;
-    }
-}
-
 /* Testimonials Css */
 
 #testimonial{
@@ -332,29 +292,6 @@ hr{
 }
 .testimonial-col:hover{
     transform: translateY(-10px);
-}
-@media screen and (max-width: 770px) {
-    .title-text p {
-        font-size: 14px;
-    }
-    .title-text h1 {
-        font-size: 20px; 
-    }
-    .testimonial-row {
-        width: 80%;
-        justify-content: space-around;
-    }
-    .testimonial-col{
-        flex-basis: 100%;
-    }
-    .testimonial-col p {
-        font-size: 12px;
-    }
-    .user img {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-    }
 }
 
 /*    Footer Css */
@@ -421,25 +358,3 @@ hr{
     margin-top: 30px;
     color: gray;
 }
-
-@media screen and (max-width: 770px) {
-    .footer-left, .footer-right{
-        flex-basis: 100%;
-    }
-    .footer-left h1, .footer-right h1{
-        font-size: 20px;
-    }
-    #footer .footer-img {
-        max-width: 280px;
-        opacity: 0.1;
-        position: absolute;
-        transform: translate(90%, -25%);
-    }
-}
-
-@media screen and (max-width: 480px) {
-    
-}
-
-
-

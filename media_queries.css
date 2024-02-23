@@ -38,4 +38,11 @@
     .footer-left, .footer-right {
         flex-basis: 100%;
     }
+    .single-service:hover .service-desc{
+        bottom: 30%;
+        opacity: 0.8;
+    }
+    .service-desc p{
+        font-size: 10px;
+    }
 }
